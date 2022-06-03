@@ -44,6 +44,9 @@ a {
 	color: var(--orange);
 	background: var(--white);
 }
+.btn-white:hover {
+	border: 2px solid var(--peach-light);
+}
 .border-orange {
 	border: 2px solid var(--peach-light);
 }
@@ -93,12 +96,13 @@ li > .active:after {
 }
 .btn-head {
 	padding: 0;
-	width: 180px;
+	width: 200px;
 	height: 47px;
 	margin: 0 auto;
 	display: inline-block;
 	line-height: 45px;
 	text-align: center;
+	font-weight: 600;
 }
 .play-icon {
 	position: relative;
