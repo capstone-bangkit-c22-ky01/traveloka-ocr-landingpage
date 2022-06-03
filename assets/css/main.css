@@ -1,0 +1,107 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	box-sizing: border-box;
+	font-family: 'Nunito', sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+}
+
+:root {
+	--white: #ffffff;
+	--black: #263238;
+	--grey-dark: #e8e7e7;
+	--grey: #f4f3f3;
+	--grey-light: #fafafa;
+	--navy: #1a5984;
+	--blue: #2c95dc;
+	--blue-light: #80bfea;
+	--brown: #8e3c1e;
+	--orange: #ec6432;
+	--peach: #f6b299;
+	--peach-light: #ffd8be;
+}
+
+a {
+	text-decoration: none;
+}
+.container {
+	margin: auto !important;
+	max-width: 1440px !important;
+	padding: 0 7%;
+}
+.highlight {
+	color: var(--orange);
+}
+.btn-orange {
+	color: var(--grey-light);
+	background: var(--orange);
+}
+.btn-orange:hover {
+	color: var(--orange);
+	background: var(--white);
+}
+.border-orange {
+	border: 2px solid var(--peach-light);
+}
+.pe-7 {
+	padding-right: 60px !important;
+}
+
+/* Navbar */
+.navbar-brand img {
+	max-width: 80%;
+}
+.nav-link {
+	color: var(--black) !important;
+	padding: 0 !important;
+	font-size: 1.3em;
+	font-weight: 700;
+}
+ul a:hover {
+	color: #000;
+}
+.underline > a:after {
+	content: '';
+	display: block;
+	height: 2px;
+	background: var(--orange);
+	transform: scaleX(0);
+	transition: transform 0.3s;
+}
+.underline > a:hover:after {
+	transform: scaleX(1);
+	transition: transform 0.3s;
+}
+.active {
+	border-bottom: 3px solid var(--orange);
+}
+li > .active:after {
+	display: none;
+}
+
+/* Hero */
+.hero {
+	margin-top: 50px;
+}
+.p-heading {
+	font-size: 1.1rem;
+	font-weight: 400;
+}
+.btn-head {
+	padding: 0;
+	width: 180px;
+	height: 47px;
+	margin: 0 auto;
+	display: inline-block;
+	line-height: 45px;
+	text-align: center;
+}
+.play-icon {
+	position: relative;
+	top: -2px;
+	left: -1px;
+}
