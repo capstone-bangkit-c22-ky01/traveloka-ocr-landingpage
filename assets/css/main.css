@@ -28,6 +28,14 @@ body {
 a {
 	text-decoration: none;
 }
+hr {
+	width: 50%;
+	margin: 0 auto;
+	border: 2px solid var(--grey-dark);
+}
+.text-blue {
+	color: var(--blue);
+}
 .container {
 	margin: auto !important;
 	max-width: 1440px !important;
@@ -87,11 +95,12 @@ li > .active:after {
 }
 
 /* Hero */
-.hero {
-	margin-top: 50px;
+#hero {
+	margin-top: 90px;
+	margin-bottom: 120px;
 }
 .p-heading {
-	font-size: 1.1rem;
+	font-size: 1.2rem;
 	font-weight: 400;
 }
 .btn-head {
@@ -108,4 +117,19 @@ li > .active:after {
 	position: relative;
 	top: -2px;
 	left: -1px;
+}
+
+/* We here */
+#we-here {
+	margin-top: 80px;
+	margin-bottom: 100px;
+}
+.p-content {
+	font-size: 1rem;
+}
+
+/* Supporting Partner */
+#support {
+	margin-top: 80px;
+	margin-bottom: 100px;
 }
