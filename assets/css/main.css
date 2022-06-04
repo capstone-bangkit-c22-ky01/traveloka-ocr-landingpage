@@ -237,3 +237,49 @@ li > .active:after {
 .appstore {
 	background-image: url(../images/appstore.png);
 }
+
+/* Footer */
+footer {
+	background: #113853;
+	font-size: 1.1em;
+}
+.img-footer {
+	filter: brightness(0) invert(1);
+	max-width: 160px;
+}
+.content-footer {
+	color: #fff;
+	font-weight: 300;
+}
+.icon-footer a i {
+	border: 1px solid var(--grey);
+	border-radius: 50%;
+	padding: 5px;
+	color: #fff !important;
+	font-size: 20px;
+}
+.icon-footer a:hover i {
+	animation: rotation 1.2s infinite linear;
+}
+.text-href {
+	color: var(--grey);
+}
+.text-href:hover {
+	color: var(--grey-dark);
+}
+.light-blue {
+	color: #addeff;
+}
+.bx {
+	font-size: 18px;
+}
+
+/* Rotation Animation */
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(359deg);
+	}
+}
