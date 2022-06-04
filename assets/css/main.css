@@ -61,6 +61,9 @@ hr {
 .pe-7 {
 	padding-right: 60px !important;
 }
+.text-primary {
+	color: var(--blue) !important;
+}
 
 /* Navbar */
 .navbar-brand img {
@@ -177,4 +180,20 @@ li > .active:after {
 }
 .card-img {
 	width: 40px;
+}
+
+/* Step */
+#steps {
+	margin-top: 90px;
+	margin-bottom: 120px;
+}
+.step-line {
+	margin: 30px 0 50px 0;
+}
+.step-heading {
+	font-weight: 600;
+}
+.step-text {
+	font-size: 1rem;
+	font-weight: 500;
 }
