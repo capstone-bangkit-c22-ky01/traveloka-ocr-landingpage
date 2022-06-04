@@ -28,7 +28,7 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg bg-white shadow-sm pt-3">
+    <nav id="navbar" class="navbar navbar-expand-lg bg-white fixed-top shadow-sm pt-3">
       <div class="container">
         <a class="navbar-brand" href="#">
           <img src="assets/images/logo.png" alt="">
@@ -40,7 +40,7 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
           <ul class="navbar-nav mb-2 mb-lg-0">
             <li class="nav-item underline ms-3 me-5 mt-2">
-              <a class="nav-link" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#hero">Home</a>
             </li>
             <li class="nav-item dropdown ms-3 me-5 mt-2">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
@@ -48,22 +48,24 @@
                 About
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li class="underline"><a class="dropdown-item" href="#">Why are we here?</a></li>
-                <li class="underline"><a class="dropdown-item" href="#">Supporting partner</a></li>
-                <li class="underline"><a class="dropdown-item" href="#">Feature steps</a></li>
+                <li class="underline"><a class="dropdown-item" href="#we-here">Why are we here?</a></li>
+                <li class="underline"><a class="dropdown-item" href="#support">Supporting partner</a></li>
+                <li class="underline"><a class="dropdown-item" href="#steps">Feature steps</a></li>
               </ul>
             </li>
             <li class="nav-item underline ms-3 me-5 mt-2">
-              <a class="nav-link" aria-current="page" href="#">Advantage</a>
+              <a class="nav-link" aria-current="page" href="#special">Advantage</a>
             </li>
             <li class="nav-item underline ms-3 mt-2">
-              <a class="nav-link" aria-current="page" href="#">Our Teams</a>
+              <a class="nav-link" aria-current="page" href="#our-teams">Our Teams</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+  </header>
 
+  <main data-bs-spy="scroll" data-bs-target="#navbar">
     <section id="hero">
       <div class="container">
         <div class="row align-items-center">
@@ -87,9 +89,6 @@
         </div>
       </div>
     </section>
-  </header>
-
-  <main>
     <hr>
     <section id="we-here">
       <div class="container">
@@ -210,6 +209,10 @@
           </div>
         </div>
       </div>
+    </section>
+
+    <section id="our-teams">
+
     </section>
 
     <section class="download-now">
