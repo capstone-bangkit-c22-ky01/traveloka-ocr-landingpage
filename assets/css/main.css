@@ -148,16 +148,15 @@ li > .active:after {
 	margin-top: 90px;
 	margin-bottom: 120px;
 }
-.card {
+.special-card {
 	box-shadow: 0px 20px 16px -14px rgba(0, 0, 0, 0.25) !important;
 	width: 250px;
 	height: 250px;
 	margin: 30px 0;
 	transition: 0.3s;
 }
-.card:hover {
-	box-shadow: 0px 30px 16px -14px rgba(0, 0, 0, 0.18) !important;
-	transform: translateY(-10px);
+.special-card:hover {
+	transform: translateY(-16px) !important;
 }
 .bg-orange {
 	background-color: var(--orange);
@@ -204,9 +203,112 @@ li > .active:after {
 	font-weight: 500;
 }
 
+/* Our Teams */
+.teams-heading {
+	font-family: 'Inter', sans-serif;
+	font-weight: 900;
+	font-size: 80px;
+	line-height: 80px;
+}
+.card-teams {
+	position: relative;
+	width: 215px;
+	height: 250px;
+}
+/* front */
+.img-teams {
+	width: 100%;
+	height: 100%;
+	object-fit: fill;
+}
+.body-teams {
+	position: absolute;
+	bottom: 0;
+	color: white;
+	width: 100%;
+	padding: 10px 16px;
+}
+.name-card {
+	font-size: 18px;
+	margin-bottom: 0;
+	text-transform: capitalize;
+}
+.position-card {
+	font-weight: 500;
+	font-size: 14px;
+	text-transform: capitalize;
+}
+.btn-teams {
+	width: 20px;
+	height: 20px;
+	margin: auto 0;
+}
+.btn-teams i {
+	margin: auto;
+	font-size: 16px;
+	vertical-align: top;
+	transition: 0.3s;
+}
+.btn-teams:hover i {
+	transform: translateX(2px);
+}
+/* back */
+.back {
+	background-color: var(--orange);
+}
+.content-card-teams {
+	padding: 10px;
+	color: #fff;
+}
+.container-card-back {
+	padding: 5px 15px 10px;
+}
+.unflip {
+	border: none;
+	background: none;
+	color: #fff;
+}
+.unflip i {
+	font-size: 20px;
+	transition: 0.3s;
+}
+.unflip:hover i {
+	animation: rotation 1.2s infinite linear;
+}
+.name-card-back {
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: capitalize;
+}
+.position-back-teams {
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: capitalize;
+}
+.sosmed-icon-teams a i {
+	font-size: 24px;
+	color: #fff;
+	transition: 0.3s;
+}
+.sosmed-icon-teams a:hover i {
+	transform: scale(1.2);
+}
+.line-card-teams {
+	border: 0.5px solid #fff;
+	background: #fff;
+	width: 15%;
+	opacity: 1;
+}
+.quote {
+	font-style: italic;
+	margin-top: 10px;
+	font-size: 12px;
+	font-weight: 300;
+}
+
 /* Download */
 .download-now {
-	padding: 100px 0;
+	padding: 200px 0 100px;
 }
 .download-now .download-wrapper {
 	background-color: var(--orange);
