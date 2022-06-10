@@ -201,6 +201,9 @@ li > .active:after {
 }
 
 /* Step */
+#our-teams .row-card {
+	margin-bottom: 50px;
+}
 #steps {
 	margin-top: 90px;
 	margin-bottom: 120px;
@@ -218,15 +221,18 @@ li > .active:after {
 
 /* Our Teams */
 .teams-heading {
+	margin-top: 5px;
 	font-family: 'Inter', sans-serif;
 	font-weight: 900;
+	letter-spacing: 2px;
 	font-size: 80px;
-	line-height: 80px;
+	line-height: 75px;
 }
 .card-teams {
 	position: relative;
 	width: 215px;
 	height: 250px;
+	border: none;
 }
 /* front */
 .img-teams {
@@ -301,8 +307,8 @@ li > .active:after {
 #img-tia {
 	width: 100%;
 	height: 100%;
-	background: linear-gradient(180deg, rgba(50, 50, 50, 0) 55%, rgba(0, 0, 0, 0.67) 90%),
-		url('../images/artia.png') no-repeat center / cover;
+	background: linear-gradient(180deg, rgba(34, 34, 34, 0) 50%, rgba(0, 0, 0, 0.745) 90%),
+		url('../images/artia.jpeg') no-repeat center / cover;
 	background-position: center;
 	background-size: cover;
 	transition: 0.5s;
@@ -324,13 +330,15 @@ li > .active:after {
 	padding: 10px 16px;
 }
 .name-card {
-	font-size: 18px;
+	font-size: 20px;
 	margin-bottom: 0;
+	line-height: 20px;
 	text-transform: capitalize;
 }
 .position-card {
-	font-weight: 500;
-	font-size: 14px;
+	padding-top: 10px;
+	font-weight: 600;
+	font-size: 12px;
 	text-transform: capitalize;
 }
 .btn-teams {
@@ -347,7 +355,7 @@ li > .active:after {
 .btn-teams:hover i {
 	transform: translateX(2px);
 }
-/* back */
+/* back flip card*/
 .back {
 	background-color: var(--orange);
 }
@@ -528,4 +536,37 @@ footer {
 		background-color: none;
 	}
 
+	/* Our teams */
+	.teams-heading {
+		margin-top: 5px;
+		text-align: center;
+		font-family: 'Inter', sans-serif;
+		font-weight: 700;
+		/* letter-spacing: 2px; */
+		font-size: 60px;
+		line-height: 55px;
+		margin-bottom: 15px;
+	}
+	.card-teams {
+		position: relative;
+		width: 215px;
+		height: 250px;
+		border: none;
+		margin-bottom: 20px;
+	}
+
+	/* Step */
+	#our-teams .row-card {
+		margin-bottom: 2px;
+	}
+	#steps {
+		margin-top: 90px;
+		margin-bottom: 120px;
+	}
+	.card-teams {
+		position: relative;
+		width: 215px;
+		height: 250px;
+		border: none;
+	}
 }
