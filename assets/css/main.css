@@ -36,11 +36,11 @@ hr {
 .text-blue {
 	color: var(--blue);
 }
-/* .container {
+.container {
 	margin: auto !important;
-	max-width: 1440px !important;
+	max-width: 1200px !important;
 	padding: 0 7%;
-} */
+}
 .highlight {
 	color: var(--orange);
 }
@@ -384,7 +384,7 @@ li > .active:after {
 }
 .name-card-back {
 	font-size: 18px;
-	font-weight: 700;
+	font-weight: 700; 
 	text-transform: capitalize;
 }
 .position-back-teams {
@@ -538,6 +538,10 @@ footer {
 
 	.navbar .navbarDropdownMenuLink {
 		background-color: none;
+	}
+	
+	#hero .hero-img img {
+		display: none;
 	}
 
 	/* We here and support */
