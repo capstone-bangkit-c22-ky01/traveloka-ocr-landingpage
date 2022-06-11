@@ -65,7 +65,7 @@ hr {
 	color: var(--blue) !important;
 }
 .heading {
-	font-weight: 800;
+	font-weight: 700;
 }
 .heading-2 {
 	font-weight: 700;
@@ -113,13 +113,24 @@ li > .active:after {
 	font-weight: 700;
 }
 
+
 /* Hero */
 #hero {
-	padding-bottom: 120px;
 	background-color: var(--grey-light);
+	padding: 160px 0;
 }
-.container-hero {
-	padding-top: 110px;
+#hero .container-hero-heading {
+	padding: 20px;
+	/* max-width: 1000vh; */
+	/* background-color: #54841a; */
+}
+#hero h1 {
+	font-size: 39px;
+	/* letter-spacing: 1px; */
+}
+#hero .hero-img img{
+	/* padding-top: 10px; */
+	width: 120%;
 }
 .p-heading {
 	font-size: 1.2rem;
