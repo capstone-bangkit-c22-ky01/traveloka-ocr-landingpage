@@ -149,6 +149,10 @@ li > .active:after {
 .p-content {
 	font-size: 1rem;
 }
+.img-wesupport{
+	width: 85%;
+
+}
 
 /* Supporting Partner */
 #support {
@@ -534,6 +538,32 @@ footer {
 
 	.navbar .navbarDropdownMenuLink {
 		background-color: none;
+	}
+
+	/* We here and support */
+	.img-wesupport{
+		display: block;
+  		margin-left: auto;
+  		margin-right: auto;
+		width: 60%;
+	}
+	.p-content mt-4{
+		width: 50%;
+	}
+	.kecil{
+		padding: 8%;
+	}
+
+	/* special */
+	.half{
+		width: 100%;
+	}
+	.hilang{
+		display: none;
+		grid-template-columns: 0;
+	}
+	.ukuran{
+		width: 50%;
 	}
 
 	/* Our teams */
