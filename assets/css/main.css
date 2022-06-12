@@ -135,6 +135,7 @@ li > .active:after {
 .p-heading {
 	font-size: 1.2rem;
 	font-weight: 400;
+	margin-top: 40px;
 }
 #hero .container-btn-head {
 	margin-top: 50px;
@@ -570,31 +571,49 @@ footer {
 	
 	/* Hero */
 	#hero {
-		/* background-color: #2c95dc; */
-		background-color: var(--grey-light);
-		padding: 120px 0;
+		display: grid;
+		padding: 70px 0 0;
+	}
+	#hero .container-hero{
+		padding-top: 30px;
+		flex-direction: column;
 	}
 	#hero .container-hero-heading {
-		/* padding: 10px; */
+		padding: 1px 30px 30px;
 		/* max-width: 1000vh; */
-		background-color: #b0df75;
+		/* background-color: #54841a; */
+	}
+	#hero .hero-text {
+		order: 2;
+		/* max-width: 900vh; */
+		/* background-color: #b0df75; */
+	}
+	#hero .hero-img {
+		/* padding-left: 25px; */
+		/* background-color: #113853; */
+		order: 1;
+		display: flex;
+		justify-content: center;
+		/* align-items: center; */
+		margin-bottom: 20px;
+	}
+	#hero .hero-img img{
+		width: 85%;
 	}
 	#hero h1 {
-		font-size: 32px;
+		font-size: 28px;
 		text-align: center;
 		/* letter-spacing: 1px; */
 	}
-	#hero .hero-img img {
-		display: none;
-	}
 	.p-heading {
-		font-size: 1rem;
+		font-size: 14px;
 		font-weight: 400;
 		text-align: center;
+		margin-top: 10px;
 	}
 	#hero .container-btn-head{
-		background-color: #1a5984;
-		margin-top: 15px;
+		/* background-color: #1a5984; */
+		margin-top: 25px;
 		/* padding: 0 auto; */
 		/* display: flex;
 		justify-content: center; */
@@ -636,8 +655,9 @@ footer {
 		align-self: center;
 		justify-content: center; */
 		position: relative;
-		top: 7px;
-		left: 17px;
+		top: 8px;
+		left: 18px;
+		/* background-color: #1a5984; */
 		/* display: flex;
 		align-items: center; */
 	}
