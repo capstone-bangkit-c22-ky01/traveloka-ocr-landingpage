@@ -117,7 +117,7 @@ li > .active:after {
 /* Hero */
 #hero {
 	background-color: var(--grey-light);
-	padding: 160px 0;
+	padding: 145px 0;
 }
 #hero .container-hero-heading {
 	padding: 20px;
@@ -144,7 +144,7 @@ li > .active:after {
 	padding: 0;
 	width: 200px;
 	height: 47px;
-	margin: 0 auto;
+	margin: 0 0 0 -17px;
 	display: inline-block;
 	line-height: 45px;
 	text-align: center;
@@ -440,10 +440,10 @@ li > .active:after {
 }
 
 /* Download */
-.download-now {
+#download-now {
 	padding: 200px 0 100px;
 }
-.download-now .download-wrapper {
+#download-now .download-wrapper {
 	background-color: var(--orange);
 	border-radius: 40px;
 	/* height: 250px; */
@@ -460,6 +460,12 @@ li > .active:after {
 	bottom: 0;
 }
 
+#download-now .text-app h2{
+	color: var(--white);
+	margin-bottom: 30px;
+	padding-right: 40px;
+
+}
 .btn-download {
 	width: 154px;
 	height: 45.5px;
@@ -471,6 +477,7 @@ li > .active:after {
 }
 .appstore {
 	background-image: url(../images/appstore.png);
+	display: none;
 }
 
 /* Footer */
@@ -723,5 +730,30 @@ footer {
 		width: 215px;
 		height: 250px;
 		border: none;
+	}
+
+	/* download-now */
+	#download-now {
+		padding: 30px 0 ;
+	}
+	#download-now .download-wrapper {
+		background-color: var(--orange);
+		border-radius: 20px;
+		/* height: 250px; */
+	}
+	#download-now .phone-mockup{
+		display: none;
+	}
+	#download-now .text-app h2{
+		font-size: 25px;
+		padding-right: 0;
+		margin-bottom: 20px;
+
+	}
+	#download-now .text-app{
+		text-align: center;
+	}
+	#download-now .text-app span {
+		display: block;
 	}
 }
