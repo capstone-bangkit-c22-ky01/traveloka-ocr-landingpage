@@ -485,6 +485,9 @@ footer {
 	background: #113853;
 	font-size: 1.1em;
 }
+footer .container-footer {
+	padding-top: 50px;
+}
 .img-footer {
 	filter: brightness(0) invert(1);
 	max-width: 160px;
@@ -492,6 +495,7 @@ footer {
 .content-footer {
 	color: #fff;
 	font-weight: 300;
+	/* margin-bottom: 40px; */
 }
 .icon-footer a i {
 	border: 1px solid var(--grey);
@@ -756,4 +760,10 @@ footer {
 	#download-now .text-app span {
 		display: block;
 	}
+
+	/* Footer */
+	footer .container-footer{
+		text-align: left !important;
+	}
+
 }
