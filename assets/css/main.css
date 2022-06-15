@@ -171,7 +171,7 @@ li > .active:after {
 #we-here {
 	margin-top: 80px;
 	margin-bottom: 100px;
-	background-color: #263238;
+	/* background-color: #263238; */
 }
 .p-content {
 	font-size: 1rem;
@@ -183,7 +183,7 @@ li > .active:after {
 
 /* Supporting Partner */
 #support {
-	background-color: #ec6432;
+	/* background-color: #ec6432; */
 	margin-top: 80px;
 	margin-bottom: 100px;
 }
@@ -192,7 +192,7 @@ li > .active:after {
 #special {
 	margin-top: 90px;
 	margin-bottom: 120px;
-	background-color: thistle;
+	/* background-color: thistle; */
 }
 .special-card {
 	box-shadow: 0px 20px 16px -14px rgba(0, 0, 0, 0.25) !important;
@@ -234,14 +234,8 @@ li > .active:after {
 }
 
 /* Step */
-#our-teams {
-	background-color: blueviolet;
-}
-#our-teams .row-card {
-	margin-bottom: 50px;
-}
 #steps {
-	background-color: #f6b299;
+	/* background-color: #f6b299; */
 	margin-top: 90px;
 	margin-bottom: 120px;
 }
@@ -257,6 +251,12 @@ li > .active:after {
 }
 
 /* Our Teams */
+#our-teams {
+	/* background-color: blueviolet; */
+}
+#our-teams .row-card {
+	margin-bottom: 50px;
+}
 .teams-heading {
 	margin-top: 5px;
 	font-family: 'Inter', sans-serif;
@@ -448,7 +448,7 @@ li > .active:after {
 
 /* Download */
 #download-now {
-	background-color: cadetblue;
+	/* background-color: cadetblue; */
 	padding: 200px 0 100px;
 }
 #download-now .download-wrapper {
