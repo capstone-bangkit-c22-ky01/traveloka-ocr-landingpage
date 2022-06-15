@@ -25,6 +25,7 @@ body {
 	--peach-light: #ffd8be;
 }
 
+
 a {
 	text-decoration: none;
 }
@@ -65,7 +66,7 @@ hr {
 	color: var(--blue) !important;
 }
 .heading {
-	font-weight: 800;
+	font-weight: 700;
 }
 .heading-2 {
 	font-weight: 700;
@@ -113,19 +114,44 @@ li > .active:after {
 	font-weight: 700;
 }
 
+
 /* Hero */
 #hero {
-	padding-bottom: 120px;
 	background-color: var(--grey-light);
+	padding: 145px 0;
 }
-.container-hero {
-	padding-top: 110px;
+#hero .container-hero-heading {
+	padding: 20px;
+	/* max-width: 1000vh; */
+	/* background-color: #54841a; */
+}
+#hero h1 {
+	font-size: 39px;
+	/* letter-spacing: 1px; */
+}
+#hero .hero-img img{
+	/* padding-top: 10px; */
+	width: 120%;
 }
 .p-heading {
 	font-size: 1.2rem;
 	font-weight: 400;
+	margin-top: 40px;
+}
+#hero .container-btn-head {
+	margin-top: 50px;
 }
 .btn-head {
+	padding: 0;
+	width: 200px;
+	height: 47px;
+	margin: 0 0 0 -17px;
+	display: inline-block;
+	line-height: 45px;
+	text-align: center;
+	font-weight: 600;
+}
+.btn-play {
 	padding: 0;
 	width: 200px;
 	height: 47px;
@@ -134,6 +160,7 @@ li > .active:after {
 	line-height: 45px;
 	text-align: center;
 	font-weight: 600;
+	margin-left: 40px;
 }
 .play-icon {
 	position: relative;
@@ -145,6 +172,7 @@ li > .active:after {
 #we-here {
 	margin-top: 80px;
 	margin-bottom: 100px;
+	/* background-color: #263238; */
 }
 .p-content {
 	font-size: 1rem;
@@ -156,6 +184,7 @@ li > .active:after {
 
 /* Supporting Partner */
 #support {
+	/* background-color: #ec6432; */
 	margin-top: 80px;
 	margin-bottom: 100px;
 }
@@ -164,6 +193,7 @@ li > .active:after {
 #special {
 	margin-top: 90px;
 	margin-bottom: 120px;
+	/* background-color: thistle; */
 }
 .special-card {
 	box-shadow: 0px 20px 16px -14px rgba(0, 0, 0, 0.25) !important;
@@ -205,10 +235,8 @@ li > .active:after {
 }
 
 /* Step */
-#our-teams .row-card {
-	margin-bottom: 50px;
-}
 #steps {
+	/* background-color: #f6b299; */
 	margin-top: 90px;
 	margin-bottom: 120px;
 }
@@ -224,6 +252,12 @@ li > .active:after {
 }
 
 /* Our Teams */
+#our-teams {
+	/* background-color: blueviolet; */
+}
+#our-teams .row-card {
+	margin-bottom: 50px;
+}
 .teams-heading {
 	margin-top: 5px;
 	font-family: 'Inter', sans-serif;
@@ -249,7 +283,7 @@ li > .active:after {
 	width: 100%;
 	height: 100%;
 	background: linear-gradient(180deg, rgba(34, 34, 34, 0) 40%, rgba(0, 0, 0, 0.879) 90%),
-		url('../images/fay.jpeg') no-repeat center / cover;
+		url('../images/fay.png') no-repeat center / cover;
 	background-position: center;
 	background-size: cover;
 	transition: 0.5s;
@@ -258,7 +292,7 @@ li > .active:after {
 	width: 100%;
 	height: 100%;
 	background: linear-gradient(180deg, rgba(34, 34, 34, 0) 40%, rgba(0, 0, 0, 0.879) 90%),
-		url('../images/erland.jpeg') no-repeat center / cover;
+		url('../images/erland.png') no-repeat center / cover;
 	background-position: center;
 	background-size: cover;
 	transition: 0.5s;
@@ -267,7 +301,7 @@ li > .active:after {
 	width: 100%;
 	height: 100%;
 	background: linear-gradient(180deg, rgba(34, 34, 34, 0) 40%, rgba(0, 0, 0, 0.879) 90%),
-		url('../images/ian.jpeg') no-repeat center / cover;
+		url('../images/ian.png') no-repeat center / cover;
 	background-position: center;
 	background-size: cover;
 	transition: 0.5s;
@@ -276,7 +310,7 @@ li > .active:after {
 	width: 100%;
 	height: 100%;
 	background: linear-gradient(180deg, rgba(34, 34, 34, 0) 40%, rgba(0, 0, 0, 0.879) 90%),
-		url('../images/ivan.jpeg') no-repeat center / cover;
+		url('../images/ivan.png') no-repeat center / cover;
 	background-position: center;
 	background-size: cover;
 	transition: 0.5s;
@@ -285,7 +319,7 @@ li > .active:after {
 	width: 100%;
 	height: 100%;
 	background: linear-gradient(180deg, rgba(34, 34, 34, 0) 40%, rgba(0, 0, 0, 0.879) 90%),
-		url('../images/dita.jpeg') no-repeat center / cover;
+		url('../images/dita.png') no-repeat center / cover;
 	background-position: center;
 	background-size: cover;
 	transition: 0.5s;
@@ -294,7 +328,7 @@ li > .active:after {
 	width: 100%;
 	height: 100%;
 	background: linear-gradient(180deg, rgba(34, 34, 34, 0) 40%, rgba(0, 0, 0, 0.879) 90%),
-		url('../images/sila.jpeg') no-repeat center / cover;
+		url('../images/sila.png') no-repeat center / cover;
 	background-position: center;
 	background-size: cover;
 	transition: 0.5s;
@@ -303,7 +337,7 @@ li > .active:after {
 	width: 100%;
 	height: 100%;
 	background: linear-gradient(180deg, rgba(34, 34, 34, 0) 40%, rgba(0, 0, 0, 0.879) 90%),
-		url('../images/billy.jpeg') no-repeat center / cover;
+		url('../images/billy.png') no-repeat center / cover;
 	background-position: center;
 	background-size: cover;
 	transition: 0.5s;
@@ -312,7 +346,7 @@ li > .active:after {
 	width: 100%;
 	height: 100%;
 	background: linear-gradient(180deg, rgba(34, 34, 34, 0) 40%, rgba(0, 0, 0, 0.879) 90%),
-		url('../images/artia.jpeg ') no-repeat center / cover;
+		url('../images/artia.png ') no-repeat center / cover;
 	background-position: center;
 	background-size: cover;
 	transition: 0.5s;
@@ -321,7 +355,7 @@ li > .active:after {
 	width: 100%;
 	height: 100%;
 	background: linear-gradient(180deg, rgba(34, 34, 34, 0) 40%, rgba(0, 0, 0, 0.879) 90%),
-		url('../images/faisal.jpeg') no-repeat center / cover;
+		url('../images/faisal.png') no-repeat center / cover;
 	background-position: center;
 	background-size: cover;
 	transition: 0.5s;
@@ -414,10 +448,11 @@ li > .active:after {
 }
 
 /* Download */
-.download-now {
+#download-now {
+	/* background-color: cadetblue; */
 	padding: 200px 0 100px;
 }
-.download-now .download-wrapper {
+#download-now .download-wrapper {
 	background-color: var(--orange);
 	border-radius: 40px;
 	/* height: 250px; */
@@ -434,6 +469,12 @@ li > .active:after {
 	bottom: 0;
 }
 
+#download-now .text-app h2{
+	color: var(--white);
+	margin-bottom: 30px;
+	padding-right: 40px;
+
+}
 .btn-download {
 	width: 154px;
 	height: 45.5px;
@@ -445,12 +486,16 @@ li > .active:after {
 }
 .appstore {
 	background-image: url(../images/appstore.png);
+	display: none;
 }
 
 /* Footer */
 footer {
 	background: #113853;
 	font-size: 1.1em;
+}
+footer .container-footer {
+	padding-top: 50px;
 }
 .img-footer {
 	filter: brightness(0) invert(1);
@@ -459,6 +504,7 @@ footer {
 .content-footer {
 	color: #fff;
 	font-weight: 300;
+	/* margin-bottom: 40px; */
 }
 .icon-footer a i {
 	border: 1px solid var(--grey);
@@ -492,9 +538,31 @@ footer {
 		transform: rotate(359deg);
 	}
 }
+@media screen and (min-device-width: 426px){
+	#steps .steps-mobile{
+		display: none;
+	}
+}
 
 /* Responsive */
-@media (max-width: 576px) { 
+@media screen and (max-device-width: 425px) { 
+	
+	/* Steps */
+	#steps .steps-large{
+		background-color: aqua;
+		margin-top: 90px;
+		margin-bottom: 120px;
+		display: none;
+	}
+	#steps .steps-mobile .step2-wrapper{
+		margin: 20px 0;
+	}
+	#steps .steps-mobile .step3-wrapper{
+		margin: 20px 0;
+	}
+	.heading {
+		font-weight: 650;
+	}
 	/* Navbar */
 	.navbar-brand img {
 		max-width: 60%;
@@ -540,8 +608,101 @@ footer {
 		background-color: none;
 	}
 	
-	#hero .hero-img img {
+	/* Hero */
+	#hero {
+		display: grid;
+		padding: 70px 0 0;
+		background-color: var(--grey-light);
+	}
+	#hero .container-hero{
+		padding-top: 30px;
+		flex-direction: column;
+	}
+	#hero .container-hero-heading {
+		padding: 1px 30px 30px;
+		/* max-width: 1000vh; */
+		/* background-color: #54841a; */
+	}
+	#hero .hero-text {
+		order: 2;
+		/* max-width: 900vh; */
+		/* background-color: #b0df75; */
+	}
+	#hero .hero-img {
+		/* padding-left: 25px; */
+		/* background-color: #113853; */
+		order: 1;
+		display: flex;
+		justify-content: center;
+		/* align-items: center; */
+		margin-bottom: 20px;
+	}
+	#hero .hero-img img{
+		width: 85%;
+	}
+	#hero h1 {
+		font-size: 28px;
+		text-align: center;
+		/* letter-spacing: 1px; */
+	}
+	.p-heading {
+		font-size: 14px;
+		font-weight: 400;
+		text-align: center;
+		margin-top: 10px;
+	}
+	#hero .container-btn-head{
+		/* background-color: #1a5984; */
+		margin-top: 25px;
+		/* padding: 0 auto; */
+		/* display: flex;
+		justify-content: center; */
+	}
+	/* #hero .container-btn-head .btn{
+		display: flex;
+		justify-content: center;
+	} */
+	.btn-head {
+		padding: 0;
+		width: 150px;
+		height: 47px;
+		margin: 0;
+		display: inline-block;
+		line-height: 45px;
+		font-weight: 600;
+	}
+	#hero .btn-play span{
 		display: none;
+	}
+	#hero .btn-play {
+		margin-left: 10px;
+		/* padding: 0; */
+		width: 65px;
+		/* background-color: #1a5984; */
+		height: 47px;
+		/* margin: 40px; */
+		/* display: inline-flex; */
+		/* display: inline-block;
+		align-self: center;
+		justify-content: center; */
+		/* line-height: 45px;
+		text-align: center;
+		font-weight: 600; */
+	}
+	#hero .btn-play img {
+		width: 26px;
+		/* display: inline-block;
+		align-self: center;
+		justify-content: center; */
+		position: relative;
+		top: 8px;
+		left: 18px;
+		/* background-color: #1a5984; */
+		/* display: flex;
+		align-items: center; */
+	}
+	.play-icon {
+		/* left: 1px; */
 	}
 
 	/* We here and support */
@@ -593,14 +754,41 @@ footer {
 	#our-teams .row-card {
 		margin-bottom: 2px;
 	}
-	#steps {
-		margin-top: 90px;
-		margin-bottom: 120px;
-	}
 	.card-teams {
 		position: relative;
 		width: 215px;
 		height: 250px;
 		border: none;
 	}
+
+	/* download-now */
+	#download-now {
+		padding: 30px 0 ;
+	}
+	#download-now .download-wrapper {
+		background-color: var(--orange);
+		border-radius: 20px;
+		/* height: 250px; */
+	}
+	#download-now .phone-mockup{
+		display: none;
+	}
+	#download-now .text-app h2{
+		font-size: 25px;
+		padding-right: 0;
+		margin-bottom: 20px;
+
+	}
+	#download-now .text-app{
+		text-align: center;
+	}
+	#download-now .text-app span {
+		display: block;
+	}
+
+	/* Footer */
+	footer .container-footer{
+		text-align: left !important;
+	}
+
 }
