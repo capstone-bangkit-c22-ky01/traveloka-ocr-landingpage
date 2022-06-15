@@ -252,9 +252,6 @@ li > .active:after {
 }
 
 /* Our Teams */
-#our-teams {
-	/* background-color: blueviolet; */
-}
 #our-teams .row-card {
 	margin-bottom: 50px;
 }
@@ -549,49 +546,18 @@ footer .container-footer {
 	.container {
 		padding: 0;
 	}
-	/* Steps */
-	/* #steps {
-		background-color: #1a5984;
-	} */
-	#steps .steps-large{
-		background-color: aqua;
-		margin-top: 90px;
-		margin-bottom: 120px;
-		display: none;
-	}
-	#steps .steps-mobile img {
-		width: 50%;
-	}
-	#steps .steps-mobile .step-text{
-		padding: 10px 40px;
-	}
-	/* #steps .steps-mobile {
-		display: inline-block;
-		align-items: center;
-	} */
-	#steps .steps-mobile .step-text {
-		font-size: 14px;
-	}
-	#steps .steps-mobile .step2-wrapper{
-		/* max-width: 90%; */
-		margin-top: 20px;
-	}
-	#steps .steps-mobile .step3-wrapper{
-		margin-top: 20px;
-	}
 	.heading {
 		font-weight: 650;
 	}
+
 	/* Navbar */
 	.navbar-brand img {
 		max-width: 60%;
 	}
 	.nav-link {
 		color: var(--black);
-		/* padding: 0 !important; */
 		font-size: 1.1em;
 		font-weight: 700;
-		/* background-color: #daecf8; */
 		align-items: center;
 	}
 	.navbar ul a:hover {
@@ -615,14 +581,12 @@ footer .container-footer {
 	}
 	
 	.navbar .dropdown-menu {
-		/* background-color: #8e3c1e; */
 		border: none;
 		border-radius: none;
 		font-family: 'Nunito', sans-serif;
 		font-size: 12px;
 		font-weight: 400;
 	}
-
 	.navbar .navbarDropdownMenuLink {
 		background-color: none;
 	}
@@ -639,21 +603,14 @@ footer .container-footer {
 	}
 	#hero .container-hero-heading {
 		padding: 1px 30px 30px;
-		/* max-width: 1000vh; */
-		/* background-color: #54841a; */
 	}
 	#hero .hero-text {
 		order: 2;
-		/* max-width: 900vh; */
-		/* background-color: #b0df75; */
 	}
 	#hero .hero-img {
-		/* padding-left: 25px; */
-		/* background-color: #113853; */
 		order: 1;
 		display: flex;
 		justify-content: center;
-		/* align-items: center; */
 		margin-bottom: 20px;
 	}
 	#hero .hero-img img{
@@ -662,7 +619,6 @@ footer .container-footer {
 	#hero h1 {
 		font-size: 28px;
 		text-align: center;
-		/* letter-spacing: 1px; */
 	}
 	.p-heading {
 		font-size: 14px;
@@ -671,16 +627,8 @@ footer .container-footer {
 		margin-top: 10px;
 	}
 	#hero .container-btn-head{
-		/* background-color: #1a5984; */
 		margin-top: 25px;
-		/* padding: 0 auto; */
-		/* display: flex;
-		justify-content: center; */
 	}
-	/* #hero .container-btn-head .btn{
-		display: flex;
-		justify-content: center;
-	} */
 	.btn-head {
 		padding: 0;
 		width: 150px;
@@ -696,39 +644,16 @@ footer .container-footer {
 	#hero .btn-play {
 		border: none;
 		margin-left: 10px;
-		/* padding: 0; */
 		width: 65px;
-		/* background-color: #1a5984; */
 		height: 47px;
-		/* margin: 40px; */
-		/* display: inline-flex; */
-		/* display: inline-block;
-		align-self: center;
-		justify-content: center; */
-		/* line-height: 45px;
-		text-align: center;
-		font-weight: 600; */
 	}
 	#hero .btn-play img {
-		width: 26px;
-		/* display: inline-block;
-		align-self: center;
-		justify-content: center; */
-		position: relative;
-		top: 8px;
-		left: 18px;
-		/* background-color: #1a5984; */
-		/* display: flex;
-		align-items: center; */
-	}
-	.play-icon {
-		/* left: 1px; */
+    width: 40px;
+    position: relative;
+    top: 3px;
+    left: 13px;
 	}
 
-	/* #hero .modal-title .iframe{
-		max-width: ;
-
-	} */
 	/* We here and support */
 	.img-wesupport{
 		display: block;
@@ -753,6 +678,29 @@ footer .container-footer {
 	}
 	.ukuran{
 		width: 50%;
+	}	
+	
+	/* Steps */
+	#steps .steps-large{
+		background-color: aqua;
+		margin-top: 90px;
+		margin-bottom: 120px;
+		display: none;
+	}
+	#steps .steps-mobile img {
+		width: 50%;
+	}
+	#steps .steps-mobile .step-text{
+		padding: 10px 40px;
+	}
+	#steps .steps-mobile .step-text {
+		font-size: 14px;
+	}
+	#steps .steps-mobile .step2-wrapper{
+		margin-top: 20px;
+	}
+	#steps .steps-mobile .step3-wrapper{
+		margin-top: 20px;
 	}
 
 	/* Our teams */
@@ -761,7 +709,6 @@ footer .container-footer {
 		text-align: center;
 		font-family: 'Inter', sans-serif;
 		font-weight: 700;
-		/* letter-spacing: 2px; */
 		font-size: 60px;
 		line-height: 55px;
 		margin-bottom: 15px;
@@ -793,7 +740,6 @@ footer .container-footer {
 	#download-now .download-wrapper {
 		background-color: var(--orange);
 		border-radius: 20px;
-		/* height: 250px; */
 	}
 	#download-now .phone-mockup{
 		display: none;
