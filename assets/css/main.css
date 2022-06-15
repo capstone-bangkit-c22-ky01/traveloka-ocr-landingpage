@@ -711,6 +711,32 @@ footer .container-footer {
 		width: 50%;
 	}
 
+	/* 3 easy steps */
+	.step-img{
+		width: 110%;
+	}
+	.step-heading {
+		font-weight: 200;
+	}
+	.step-text {
+		font-size: 1rem;
+		font-weight: 50;
+	}
+	.step-line {
+		margin: 30px 0 50px 0;
+		width: 10%;
+	}
+	
+	.step-align3{
+		align-self:end ;
+		background-color: pink;
+	}
+
+	.step-align2{
+		align-self:center ;
+		background-color: rebeccapurple;
+	}
+
 	/* Our teams */
 	.teams-heading {
 		margin-top: 5px;
