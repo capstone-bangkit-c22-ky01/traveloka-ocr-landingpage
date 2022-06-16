@@ -447,7 +447,7 @@ li > .active:after {
 /* Download */
 #download-now {
 	/* background-color: cadetblue; */
-	padding: 200px 0 100px;
+	padding: 100px 0;
 }
 #download-now .download-wrapper {
 	background-color: var(--orange);
@@ -681,10 +681,10 @@ footer .container-footer {
 	}	
 	
 	/* Steps */
+	#steps {
+		margin-bottom: 100px;
+	}
 	#steps .steps-large{
-		background-color: aqua;
-		margin-top: 90px;
-		margin-bottom: 120px;
 		display: none;
 	}
 	#steps .steps-mobile img {
@@ -705,15 +705,15 @@ footer .container-footer {
 
 	/* Our teams */
 	.teams-heading {
-		background-color: #113853;
-		margin: 10px 30px;
+		margin: 0 30px 15px;
 		padding: 20px;
 		text-align: center;
 		font-family: 'Inter', sans-serif;
-		font-weight: 700;
-		font-size: 50px;
+		font-weight: 600;
 		line-height: 55px;
 		margin-bottom: 15px;
+		letter-spacing: 0px;
+		font-size: 55px;
 	}
 	.card-teams {
 		position: relative;
