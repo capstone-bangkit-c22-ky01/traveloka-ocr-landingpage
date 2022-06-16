@@ -535,14 +535,14 @@ footer .container-footer {
 		transform: rotate(359deg);
 	}
 }
-@media screen and (min-device-width: 426px){
+@media screen and (min-width: 577px){
 	#steps .steps-mobile{
 		display: none;
 	}
 }
 
 /* Responsive */
-@media screen and (max-device-width: 425px) { 
+@media screen and (max-width: 576px) { 
 	.container {
 		padding: 0;
 	}
@@ -705,11 +705,13 @@ footer .container-footer {
 
 	/* Our teams */
 	.teams-heading {
-		margin-top: 5px;
+		background-color: #113853;
+		margin: 10px 30px;
+		padding: 20px;
 		text-align: center;
 		font-family: 'Inter', sans-serif;
 		font-weight: 700;
-		font-size: 60px;
+		font-size: 50px;
 		line-height: 55px;
 		margin-bottom: 15px;
 	}
