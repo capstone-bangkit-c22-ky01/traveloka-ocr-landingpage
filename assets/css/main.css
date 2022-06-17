@@ -253,6 +253,9 @@ li > .active:after {
 }
 
 /* Our Teams */
+#our-teams{
+	margin-top: 120px;
+}
 #our-teams .row-card {
 	margin-bottom: 50px;
 }
@@ -758,7 +761,7 @@ footer .content-footer-cr {
 
 	/* Our teams */
 	#our-teams{
-		margin-top: 80px;
+		margin-top: 800px;
 	}
 	.teams-heading {
 		margin: 0 30px 15px;
