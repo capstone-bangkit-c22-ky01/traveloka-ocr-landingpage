@@ -255,6 +255,14 @@ li > .active:after {
 #our-teams .row-card {
 	margin-bottom: 50px;
 }
+#our-teams .card-title-teams{
+	max-width: 80%;
+	/* padding-right: 20px; */
+}
+#our-teams .card-button-teams{
+	max-width: 20%;
+	align-self: center;
+}
 .teams-heading {
 	margin-top: 5px;
 	font-family: 'Inter', sans-serif;
@@ -384,7 +392,9 @@ li > .active:after {
 .btn-teams i {
 	margin: auto;
 	font-size: 16px;
-	vertical-align: top;
+	display: table;
+  align-items: center;
+	/* vertical-align: top; */
 	transition: 0.3s;
 }
 .btn-teams:hover i {
