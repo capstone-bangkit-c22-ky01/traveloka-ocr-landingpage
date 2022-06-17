@@ -712,6 +712,9 @@ footer .content-footer-cr {
 		margin-top: 80px;
 		margin-bottom: 20px;
 	}
+	#special h2{
+		padding: 0 10px;
+	}
 	#special .wrapper-card {
 		padding: 0 20px;
 	}
@@ -742,6 +745,9 @@ footer .content-footer-cr {
 	}
 	#steps .steps-large {
 		display: none;
+	}
+	#steps .steps-mobile h2 span{
+		display: block;
 	}
 	#steps .steps-mobile img {
 		width: 50%;
@@ -833,5 +839,21 @@ footer .content-footer-cr {
 	footer .content-footer-cr {
 		font-size: 1rem;
 		color: var(--grey);
+	}
+}
+
+@media screen and (max-width: 390px) {
+	/* special */
+	#special h2{
+		padding: 0 10px;
+	}
+	#special .wrapper-card {
+		padding: 0 5px;
+	}
+	#special p {
+		font-size: 0.6rem;
+	}
+	#special h5 {
+		font-size: 16px;
 	}
 }
