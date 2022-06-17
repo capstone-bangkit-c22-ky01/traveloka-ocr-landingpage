@@ -176,7 +176,8 @@ li > .active:after {
 	/* background-color: #263238; */
 }
 .p-content {
-	font-size: 1rem;
+	margin-top: 40px;
+	font-size: 1.2rem;
 }
 .img-wesupport {
 	width: 85%;
@@ -184,7 +185,6 @@ li > .active:after {
 
 /* Supporting Partner */
 #support {
-	/* background-color: #ec6432; */
 	margin-top: 80px;
 	margin-bottom: 100px;
 }
@@ -196,7 +196,7 @@ li > .active:after {
 	/* background-color: thistle; */
 }
 .special-card {
-	padding: 30px;
+	padding: 15px 30px;
 	box-shadow: 0px 20px 16px -14px rgba(0, 0, 0, 0.25) !important;
 	width: 250px;
 	height: 250px;
@@ -513,6 +513,17 @@ footer .container-footer {
 	font-weight: 300;
 	/* margin-bottom: 40px; */
 }
+footer .content-footer .text-desc{
+	padding-right: 20px;
+}
+footer .content-footer .text-desc span{
+	font-weight: 700;
+}
+footer .content-footer-cr {
+	margin-top: 20px;
+	font-size: 1rem;
+	color: var(--grey);
+}
 .icon-footer a i {
 	border: 1px solid var(--grey);
 	border-radius: 50%;
@@ -616,10 +627,6 @@ footer .container-footer {
 		padding-top: 30px;
 		flex-direction: column;
 	}
-	#hero .wrapper-hero {
-		/* max-width: 90%; */
-		background-color: #1a5984;
-	}
 	#hero .container-hero-heading {
 		padding: 1px 30px 30px;
 	}
@@ -643,7 +650,7 @@ footer .container-footer {
 		text-align: center;
 	}
 	.p-heading {
-		font-size: 14px;
+		font-size: 0.9rem;
 		text-align: center;
 		margin-top: 10px;
 	}
@@ -676,25 +683,37 @@ footer .container-footer {
 	}
 
 	/* We here and support */
+	#we-here {
+		margin-bottom: 20px;
+	}
 	.img-wesupport {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
 		width: 60%;
 	}
-	.p-content mt-4 {
-		width: 50%;
+	#we-here .p-content{
+		margin-top: 10px;
+		padding: 0 20px;
+		font-size: 0.9rem;
 	}
 	.kecil {
 		padding: 8%;
 	}
-
+	#support {
+		margin-top: 0px;
+		margin-bottom: 70px;
+	}
 	/* special */
+	#special{
+		margin-top: 80px;
+		margin-bottom: 20px;
+	}
 	#special .wrapper-card {
 		padding: 0 20px;
 	}
 	#special p {
-		font-size: 12px;
+		font-size: 0.9rem;
 	}
 	#special h5 {
 		font-size: 18px;
@@ -715,7 +734,8 @@ footer .container-footer {
 
 	/* Steps */
 	#steps {
-		margin-bottom: 100px;
+		margin-top: 80px;
+		margin-bottom: 50px;
 	}
 	#steps .steps-large {
 		display: none;
@@ -726,8 +746,8 @@ footer .container-footer {
 	#steps .steps-mobile .step-text {
 		padding: 10px 40px;
 	}
-	#steps .steps-mobile .step-text {
-		font-size: 14px;
+	#steps .steps-mobile .step-text p {
+		font-size: 0.9rem;
 	}
 	#steps .steps-mobile .step2-wrapper {
 		margin-top: 20px;
@@ -737,6 +757,9 @@ footer .container-footer {
 	}
 
 	/* Our teams */
+	#our-teams{
+		margin-top: 80px;
+	}
 	.teams-heading {
 		margin: 0 30px 15px;
 		padding: 20px;
@@ -803,5 +826,9 @@ footer .container-footer {
 	}
 	footer .content-footer-margin {
 		margin-top: 45px;
+	}
+	footer .content-footer-cr {
+		font-size: 1rem;
+		color: var(--grey);
 	}
 }
