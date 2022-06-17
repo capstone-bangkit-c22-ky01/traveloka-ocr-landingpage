@@ -834,12 +834,4 @@ footer .content-footer-cr {
 		font-size: 1rem;
 		color: var(--grey);
 	}
-	footer a {
-		text-decoration: none;
-		color: var(--grey);
-	}
-	footer a:hover{
-		text-decoration: none;
-		color: var(--grey);
-	}
 }
